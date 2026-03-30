@@ -136,7 +136,6 @@ GEM
     marcel (1.1.0)
     matrix (0.4.3)
     mini_mime (1.1.5)
-    mini_portile2 (2.8.9)
     minitest (6.0.2)
       drb (~> 2.0)
       prism (~> 1.5)
@@ -221,8 +220,8 @@ GEM
       actionpack (>= 6.1)
       activesupport (>= 6.1)
       sprockets (>= 3.0.0)
-    sqlite3 (2.7.4)
-      mini_portile2 (~> 2.8.0)
+    sqlite3 (2.9.2-arm64-darwin)
+    sqlite3 (2.9.2-x86_64-linux-gnu)
     stimulus-rails (1.0.4)
       railties (>= 6.0.0)
     strscan (3.1.0)
@@ -267,7 +266,7 @@ DEPENDENCIES
   rails (~> 7.1.5)
   selenium-webdriver
   sprockets-rails
-  sqlite3 (~> 2.7)
+  sqlite3 (~> 2.9)
   stimulus-rails
   turbo-rails
   tzinfo-data
